@@ -1,0 +1,159 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e3]:
+    - generic [ref=f9e5]:
+      - heading "React Component Generator" [level=1] [ref=f9e7]
+      - generic [ref=f9e9]:
+        - generic [ref=f9e15]:
+          - generic [ref=f9e52]:
+            - generic [ref=f9e55]: Create a beautiful data visualization card with a unique color scheme and creative animations that stands out from typical UI components
+            - img [ref=f9e58]
+          - generic [ref=f9e76]:
+            - img [ref=f9e79]
+            - generic [ref=f9e84]:
+              - paragraph [ref=f9e86]: I'll create a stunning data visualization card with a unique color scheme and creative animations.
+              - generic [ref=f9e89]: Updating Code
+              - separator [ref=f9e90]
+              - generic [ref=f9e91]:
+                - paragraph [ref=f9e92]: "I've created a stunning data visualization card with:"
+                - paragraph [ref=f9e93]:
+                  - strong [ref=f9e94]: "Design Features:"
+                - list [ref=f9e95]:
+                  - listitem [ref=f9e96]:
+                    - strong [ref=f9e97]: Unique Color Scheme
+                    - text: ": Warm amber/orange, cool emerald/cyan, and vibrant violet/purple gradients that dynamically change"
+                  - listitem [ref=f9e98]:
+                    - strong [ref=f9e99]: Creative Animations
+                    - text: ":"
+                    - list [ref=f9e100]:
+                      - listitem [ref=f9e101]: Floating orbs that drift and scale smoothly
+                      - listitem [ref=f9e102]: Pulsing rings that expand outward
+                      - listitem [ref=f9e103]: Shimmer effects on interactive buttons
+                      - listitem [ref=f9e104]: Smooth fill animations for progress bars
+                      - listitem [ref=f9e105]: Glowing text effects
+                      - listitem [ref=f9e106]: Cubic-bezier easing for premium feel
+                - paragraph [ref=f9e107]:
+                  - strong [ref=f9e108]: "Interactive Elements:"
+                - list [ref=f9e109]:
+                  - listitem [ref=f9e110]: Switch between 3 different metrics (Revenue, Engagement, Performance)
+                  - listitem [ref=f9e111]: Dynamic gradient text that matches the selected metric
+                  - listitem [ref=f9e112]: Smooth transitions between states
+                  - listitem [ref=f9e113]: Hover effects with light sweep animations
+                - paragraph [ref=f9e114]:
+                  - strong [ref=f9e115]: "Visual Polish:"
+                - list [ref=f9e116]:
+                  - listitem [ref=f9e117]: Glassmorphism with backdrop blur
+                  - listitem [ref=f9e118]: Gradient borders using CSS masks
+                  - listitem [ref=f9e119]: Layered depth with multiple animated orbs
+                  - listitem [ref=f9e120]: Responsive design that works on all screen sizes
+                  - listitem [ref=f9e121]: Semantic typography hierarchy
+                - paragraph [ref=f9e122]: The card feels premium and stands out from typical UI components with its sophisticated animation timing and intentional color choices.
+        - generic [ref=f9e24]:
+          - textbox "Describe the React component you want to create..." [ref=f9e25]
+          - button [disabled] [ref=f9e26]:
+            - img [ref=f9e27]
+    - separator [ref=f9e30]
+    - generic [ref=f9e32]:
+      - generic [ref=f9e33]:
+        - tablist [ref=f9e35]:
+          - tab "Preview" [ref=f9e36]
+          - tab "Code" [active] [selected] [ref=f9e37]
+        - generic [ref=f9e38]:
+          - button "Sign In" [ref=f9e39]
+          - button "Sign Up" [ref=f9e40]
+      - generic [ref=f9e124]:
+        - generic [ref=f9e132] [cursor=pointer]:
+          - img [ref=f9e133]
+          - generic [ref=f9e138]: App.jsx
+        - separator [ref=f9e139]
+        - code [ref=f9e144]:
+          - generic [ref=f9e145]:
+            - generic [ref=f9e147]:
+              - generic [ref=f9e150]: "1"
+              - generic [ref=f9e152]: "2"
+              - generic [ref=f9e153]:
+                - generic [ref=f9e154] [cursor=pointer]: 
+                - generic [ref=f9e155]: "3"
+              - generic [ref=f9e157]: "4"
+              - generic [ref=f9e159]: "5"
+              - generic [ref=f9e161]: "6"
+              - generic [ref=f9e162]:
+                - generic [ref=f9e163] [cursor=pointer]: 
+                - generic [ref=f9e164]: "7"
+              - generic [ref=f9e166]: "8"
+              - generic [ref=f9e168]: "9"
+              - generic [ref=f9e170]: "10"
+              - generic [ref=f9e171]:
+                - generic [ref=f9e172] [cursor=pointer]: 
+                - generic [ref=f9e173]: "11"
+              - generic [ref=f9e174]:
+                - generic [ref=f9e175] [cursor=pointer]: 
+                - generic [ref=f9e176]: "12"
+              - generic [ref=f9e178]: "13"
+              - generic [ref=f9e180]: "14"
+              - generic [ref=f9e182]: "15"
+              - generic [ref=f9e184]: "16"
+              - generic [ref=f9e186]: "17"
+              - generic [ref=f9e188]: "18"
+              - generic [ref=f9e190]: "19"
+              - generic [ref=f9e192]: "20"
+              - generic [ref=f9e193]:
+                - generic [ref=f9e194] [cursor=pointer]: 
+                - generic [ref=f9e195]: "21"
+              - generic [ref=f9e197]: "22"
+              - generic [ref=f9e199]: "23"
+              - generic [ref=f9e201]: "24"
+              - generic [ref=f9e203]: "25"
+              - generic [ref=f9e205]: "26"
+              - generic [ref=f9e207]: "27"
+              - generic [ref=f9e209]: "28"
+              - generic [ref=f9e211]: "29"
+              - generic [ref=f9e212]:
+                - generic [ref=f9e213] [cursor=pointer]: 
+                - generic [ref=f9e214]: "30"
+              - generic [ref=f9e216]: "31"
+              - generic [ref=f9e218]: "32"
+              - generic [ref=f9e220]: "33"
+              - generic [ref=f9e222]: "34"
+              - generic [ref=f9e224]: "35"
+              - generic [ref=f9e226]: "36"
+              - generic [ref=f9e228]: "37"
+            - generic [ref=f9e351]:
+              - generic [ref=f9e353]: "import React, { useState, useEffect } from 'react';"
+              - generic [ref=f9e356]: "export default function App() {"
+              - generic [ref=f9e358]: const [activeMetric, setActiveMetric] = useState(0);
+              - generic [ref=f9e360]: const [animateValues, setAnimateValues] = useState(false);
+              - generic [ref=f9e363]: "useEffect(() => {"
+              - generic [ref=f9e365]: setAnimateValues(true);
+              - generic [ref=f9e367]: "}, []);"
+              - generic [ref=f9e370]: const metrics = [
+              - generic [ref=f9e372]: "{"
+              - generic [ref=f9e374]: "label: 'Revenue Growth',"
+              - generic [ref=f9e376]: "value: '248.5K',"
+              - generic [ref=f9e378]: "change: '+12.4%',"
+              - generic [ref=f9e380]: "trend: 'up',"
+              - generic [ref=f9e382]: "percentage: 78,"
+              - generic [ref=f9e384]: "color: 'from-amber-400 via-orange-500 to-rose-600',"
+              - generic [ref=f9e386]: "accentColor: '#f97316',"
+              - generic [ref=f9e388]: "},"
+              - generic [ref=f9e390]: "{"
+              - generic [ref=f9e392]: "label: 'User Engagement',"
+              - generic [ref=f9e394]: "value: '94.2%',"
+              - generic [ref=f9e396]: "change: '+8.1%',"
+              - generic [ref=f9e398]: "trend: 'up',"
+              - generic [ref=f9e400]: "percentage: 94,"
+              - generic [ref=f9e402]: "color: 'from-emerald-400 via-teal-500 to-cyan-600',"
+              - generic [ref=f9e404]: "accentColor: '#06b6d4',"
+              - generic [ref=f9e406]: "},"
+              - generic [ref=f9e408]: "{"
+              - generic [ref=f9e410]: "label: 'Performance Score',"
+              - generic [ref=f9e412]: "value: '9.8/10',"
+              - generic [ref=f9e414]: "change: '+2.3%',"
+              - generic [ref=f9e416]: "trend: 'up',"
+              - generic [ref=f9e418]: "percentage: 98,"
+              - generic [ref=f9e420]: "color: 'from-violet-400 via-purple-500 to-indigo-600',"
+              - generic [ref=f9e422]: "accentColor: '#a855f7',"
+            - textbox "Editor content" [ref=f9e424]
+  - alert [ref=f9e51]
+  - generic [ref=f9e425]:
+    - alert
+    - alert
