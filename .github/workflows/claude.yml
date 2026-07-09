@@ -45,14 +45,14 @@ jobs:
           additional_permissions: |
             actions: read
 
-          custom_instructions: |
+          prompt: |
             The project is already set up with all dependencies installed.
             The server is already running at localhost:3000. Logs from it
-            are beign written to logs.txt. If needed, you can query the
-            db with the 'sqlite3' cli. If needed, use the mcp_playwright
+            are being written to logs.txt. If needed, you can query the
+            db with the 'sqlite3' cli. If needed, use the playwright
             set of tools to launch a browser and interact with the app.
 
-          mcp_config: |
+          settings: |
             {
               "mcpServers": {
                 "playwright": {
@@ -63,10 +63,19 @@ jobs:
                     "localhost:3000;cdn.tailwindcss.com;esm.sh"
                   ]
                 }
+              },
+              "permissions": {
+                "Bash": ["npm:*", "sqlite3:*"],
+                "mcp__playwright__browser_snapshot": true,
+                "mcp__playwright__browser_click": true,
+                "mcp__playwright__browser_navigate": true,
+                "mcp__playwright__browser_type": true,
+                "mcp__playwright__browser_take_screenshot": true,
+                "mcp__playwright__browser_fill_form": true,
+                "mcp__playwright__browser_select_option": true,
+                "mcp__playwright__browser_wait_for": true
               }
             }
-
-          allowed_tools: "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,mcp__playwright__browser_fill,mcp__playwright__browser_navigate,mcp__playwright__browser_select,mcp__playwright__browser_wait_for_selector,mcp__playwright__browser_get_text,mcp__playwright__browser_get_attribute,mcp__playwright__browser_get_value,mcp__playwright__browser_get_html,mcp__playwright__browser_get_url,mcp__playwright__browser_get_title"
 
 
           
