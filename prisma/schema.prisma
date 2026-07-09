@@ -1,0 +1,59 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  projects  Project[]
+  aiUsage   AIUsage[]
+}
+
+model Project {
+  id        String   @id @default(cuid())
+  name      String
+  userId    String?
+  messages  String   @default("[]")
+  data      String   @default("{}")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user      User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  aiUsage   AIUsage[]
+}
+
+model AIUsage {
+  id             String   @id @default(cuid())
+  userId         String?
+  projectId      String?
+  model          String
+  inputTokens    Int      @default(0)
+  outputTokens   Int      @default(0)
+  totalTokens    Int      @default(0)
+  estimatedCost  Float    @default(0)
+  duration       Int?     // Duration in milliseconds
+  status         String   @default("success")
+  errorMessage   String?
+  metadata       String   @default("{}")
+  createdAt      DateTime @default(now())
+
+  user           User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  project        Project? @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([projectId])
+  @@index([createdAt])
+}
